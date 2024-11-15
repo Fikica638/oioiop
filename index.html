@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone X Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyDevice</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#specs">Specifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>iPhone X</h1>
+            <p>The future is here. Elegant design, powerful performance.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="feature-container">
+                <div class="feature">
+                    <h3>Super Retina Display</h3>
+                    <p>A stunning 5.8-inch OLED display.</p>
+                </div>
+                <div class="feature">
+                    <h3>Face ID</h3>
+                    <p>Revolutionary facial recognition technology.</p>
+                </div>
+                <div class="feature">
+                    <h3>A11 Bionic Chip</h3>
+                    <p>The smartest chip in a smartphone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="design">
+            <h2>Design</h2>
+            <div class="design-info">
+                <p>Crafted with precision, the iPhone X features a glass and stainless steel design that feels luxurious in hand.</p>
+                <div class="phone-image"></div>
+            </div>
+        </section>
+
+        <section id="specs">
+            <h2>Specifications</h2>
+            <ul>
+                <li>Display: 5.8-inch Super Retina OLED</li>
+                <li>Chip: A11 Bionic</li>
+                <li>Camera: Dual 12MP rear cameras</li>
+                <li>Battery Life: Up to 21 hours talk time</li>
+                <li>Operating System: iOS</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/send" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MyDevice. All rights reserved.</p>
+    </footer>
+</body>
+</html>
